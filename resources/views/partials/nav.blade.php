@@ -3,7 +3,7 @@
     <label class="main-menu-btn" for="main-menu-state"> <span class="main-menu-btn-icon"></span> Toggle main menu
         visibility </label>
     <h2 class="nav-brand"><a href="{{ route('tagenergy') }}"><img class="img-fluid header_logo"
-                src="{{ load_asset('images/logo/cropped.png') }}"><img class="img-fluid logo_stricky"
+                src="{{ load_asset('images/logo/cropped_white.png') }}"><img class="img-fluid logo_stricky"
                 src="{{ load_asset('images/logo/cropped.png') }}"></a></h2>
     <ul id="main-menu" class="sm sm-clean">
         <li><a href="{{ route('tagenergy') }}">Home</a></li>

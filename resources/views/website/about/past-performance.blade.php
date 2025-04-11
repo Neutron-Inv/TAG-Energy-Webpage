@@ -4,9 +4,9 @@
 
     <!-- /page_banner start-->
     <div class="carousel-item active performance-bg"
-        style="background-image: url({{ load_asset('images/past-performance.jpg') }}); background-size:cover; background-position: center; height:350px; width:100%; position: relative;">
+        style="background-image: url({{ load_asset('images/past-performance.jpg') }}); background-size:cover; background-position: center; height:300px; width:100%; position: relative;">
         <div
-            style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(to left, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);">
+            style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(to left, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);">
         </div>
         <div class="carousel-caption1">
             <h2 style="font-size: 2rem;">Past Performance</h2>
