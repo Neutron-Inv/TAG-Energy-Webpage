@@ -9,7 +9,7 @@
             style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);">
         </div>
         <div class="carousel-caption1">
-            <h2>DNV Container Service</h2>
+            <h2>Offshore DNV Container Service</h2>
         </div>
     </div>
     <!-- /page_banner end-->
