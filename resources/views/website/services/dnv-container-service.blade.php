@@ -1,15 +1,15 @@
 @extends('layouts.master')
-@section('title', 'DNV Container Service')
+@section('title', 'Offshore DNV')
 @section('content')
 
     <!-- /page_banner start-->
     <div class="carousel-item active dnv-bg"
         style="background-image: url({{ load_asset('images/dnv.jpg') }}); background-size:cover; background-position:center 25%; height:300px; width:100%;">
         <div
-            style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);">
+            style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%);">
         </div>
         <div class="carousel-caption1">
-            <h2>Offshore DNV Container Service</h2>
+            <h2>Offshore DNV</h2>
         </div>
     </div>
     <!-- /page_banner end-->

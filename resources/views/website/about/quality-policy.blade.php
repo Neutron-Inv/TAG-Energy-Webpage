@@ -6,7 +6,7 @@
     <div class="carousel-item active quality-bg"
         style="background-image: url({{ load_asset('images/quality-policy.jpg') }}); background-position:center 80%; background-size:cover; height:300px; width:100%;">
         <div
-            style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);">
+            style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%);">
         </div>
         <div class="carousel-caption1">
             <h2 style="font-size: 1.8rem;">Quality Policy Statement</h2>
@@ -69,7 +69,7 @@
                                     Yemi Gbadamosi</p>
                                 <p style="margin-bottom: 2px;">CEO</p>
                                 <p>March 21, 2025</p>
-                            </div> 
+                            </div>
                         </div> --}}
                     </div>
                 </div>

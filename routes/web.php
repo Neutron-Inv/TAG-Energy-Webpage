@@ -62,11 +62,11 @@ Route::middleware('web')->group(function () {
         Route::get('/valve-maintenance', [WelcomeController::class, 'getValve'])->name('get-valve-service');
         Route::get('/procurement', [WelcomeController::class, 'getProcurement'])->name('get-procurement-service');
         Route::get('/valve-assembly-center', [WelcomeController::class, 'getVAC'])->name('get-vac-service');
-        Route::get('/dnv-container', [WelcomeController::class, 'getDNVContainer'])->name('get-dnv-container-service');
+        Route::get('/offshore-dnv', [WelcomeController::class, 'getDNVContainer'])->name('get-offshore-dnv-service');
     });
 
     Route::get('/jobs', [JobController::class, 'getJobs'])->name('get-tagenergy-jobs');
-    // Route::get('/jobs/{id}', [JobController::class, 'showJob'])->name('job.show'); 
+    // Route::get('/jobs/{id}', [JobController::class, 'showJob'])->name('job.show');
 });
 
 Route::get('/login', fn() => view('auth.login'));

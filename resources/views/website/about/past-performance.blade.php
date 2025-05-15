@@ -4,9 +4,9 @@
 
     <!-- /page_banner start-->
     <div class="carousel-item active performance-bg"
-        style="background-image: url({{ load_asset('images/past-performance.jpg') }}); background-size:cover; background-position: center; height:300px; width:100%; position: relative;">
+        style="background-image: url({{ load_asset('images/past-performance.jpg') }}); background-size:cover; background-position:center 30%; height:300px; width:100%; position: relative;">
         <div
-            style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(to left, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);">
+            style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%);">
         </div>
         <div class="carousel-caption1">
             <h2 style="font-size: 2rem;">Past Performance</h2>
@@ -22,7 +22,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/gangway-overhaul.jpg') }}"
                                 alt="Gangway & Ancillary Support Overhaul"
                                 style="width: 100%; height: 100%; object-fit: cover;">
@@ -32,7 +33,7 @@
                                 Ancillary Support
                                 Overhaul</h3>
                             <p style="color: #666; margin-bottom: 15px;">Comprehensive overhaul and refurbishment of the
-                                gangway and ancillary support systems to enhance stability, safety, and operational
+                                gangway and ancillary support systems to enhance stability, safety & operational
                                 efficiency.</p>
                             <div class="project-details"
                                 style="border-top: 1px solid #eee; padding-top: 15px; position: relative;">
@@ -59,7 +60,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/pressure-valves.jpg') }}"
                                 alt="Pressure Safety Valves Installation"
                                 style="width: 100%; height: 100%; object-fit: cover;">
@@ -91,7 +93,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/valves-refurbishment.jpg') }}"
                                 alt="Pressure Safety Valves Refurbishment"
                                 style="width: 100%; height: 100%; object-fit: cover;">
@@ -124,7 +127,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/steam-valves.jpg') }}"
                                 alt="Steam Line Safety Valves Service"
                                 style="width: 100%; height: 100%; object-fit: cover;">
@@ -158,7 +162,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/manpower-support.jpg') }}"
                                 alt="Manpower Support Services" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
@@ -190,7 +195,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/offshore-personnel.jpg') }}"
                                 alt="Offshore Personnel Support" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
@@ -224,7 +230,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/lifeboat-recertification.jpg') }}"
                                 alt="Agbami Lifeboat Recertification"
                                 style="width: 100%; height: 100%; object-fit: cover;">
@@ -257,7 +264,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/buying-house.jpg') }}" alt="Buying House Agreement"
                                 style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
@@ -291,7 +299,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/actuators-rovs.jpg') }}"
                                 alt="Actuators & Hydraulic ROVs Supply"
                                 style="width: 100%; height: 100%; object-fit: cover;">
@@ -327,7 +336,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/gate-globe-valves.jpg') }}"
                                 alt="Gate & Globe Valve Supply" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
@@ -361,7 +371,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/gaskets.jpg') }}" alt="Gaskets Supply"
                                 style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
@@ -395,7 +406,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/acoustic-slabs.jpg') }}" alt="Acoustic Slab Supply"
                                 style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
@@ -429,7 +441,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/valve-supply.jpg') }}" alt="Valves Supply"
                                 style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
@@ -460,7 +473,8 @@
                 <div class="col-lg-6 col-md-12 mb-5">
                     <div class="project-card"
                         style="background: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
-                        <div class="project-image" style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0;">
+                        <div class="project-image"
+                            style="height: 250px; overflow: hidden; border-radius: 10px 10px 0 0; position: relative;">
                             <img src="{{ load_asset('images/projects/flange-joint.jpg') }}"
                                 alt="Bolted Flange Joint Support" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>

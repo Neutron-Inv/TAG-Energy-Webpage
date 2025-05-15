@@ -12,7 +12,7 @@
                 <li><a href="{{ route('get-about') }}">Who we are</a></li>
                 <li><a href="{{ route('get-community') }}">In The Communities</a></li>
                 <li><a href="{{ route('get-vac-service') }}">Our Valve Assembly Center</a></li>
-                <li><a href="{{ route('get-dnv-container-service') }}">Our DNV Container</a></li>
+                <li><a href="{{ route('get-offshore-dnv-service') }}">Our DNV Container</a></li>
                 <li><a href="{{ route('get-past-performance') }}">Past Performance</a></li>
                 <li><a href="{{ route('get-quality-policy') }}">Quality Policy</a></li>
                 <!-- <li><a href="{{ route('get-gallery') }}">Gallery</a></li> -->
